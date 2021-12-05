@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    color: #8d8d8d;
+    background-color: #faf4f2;
+}
+
+.clear{
+    clear: both;
+}
+
+/* Handle header */
+.header{
+    background-color: #f8e1db;
+    padding: 10px 70px;
+}
+
+.header ul{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.header ul a{
+    text-decoration: none;
+    color: #3b3735;
+    font-size: 20px;
+}
+
+.header li{
+    display: inline;
+    margin-right: 40px;
+}
+
+.header .active a{
+    color: #e76f51;
+    font-size: 20px;
+}
+
+/* Handel carousel */
+.carousel{
+    background-image: url(../img/BG.png);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Handle activities */
+.activities{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.activities__title{
+    color: #8d8d8d;
+    font-size: 24px;
+}
+
+.activities__content{
+    margin-top: 20px;
+}
+
+.activities__item{
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+
+.activities__card{
+    padding: 40px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.activities__card img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.activities__img{
+    position: relative;
+}
+
+.activities__love{
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    color: #e76f51;
+    font-size: 16px;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.activities__detail h3{
+    color: black;
+    margin: 10px 0px;
+}
+
+.activities__detail button{
+    margin-top: 20px;
+    padding: 13px 54px;
+    border: transparent;
+    border-radius: 25px;
+    font-size: 18px;
+    background-color: rgba(117, 117, 177, 0,7);
+    cursor: pointer;
+}
+
+.activities__detail button:hover{
+    background-color: #e76f51;
+    color: white;
+}
+/* Handle contact */
+.contact{
+    background-color: #f8e1db;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+.contact__left,
+.contact__right{
+    float: left;
+    width: 50%;
+    padding: 20px 20px;
+}
+
+.contact__left{
+    background-image: url(../img/mask.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.contact__right{
+    padding-top: 94px;
+}
+
+.contact__right h2{
+    margin-bottom: 30px;
+}
+
+.contact__right p{
+    margin: 12px 0 30px;
+}
+
+.contact__app,
+.contact__us{
+    float: left;
+    width: 50%;
+}
+
+.contact__us i{
+    color: #e76f51;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.contact__app h3{
+    margin: 10px 0;
+}
+
+.contact__us h3{
+    margin: 10px 0;
+}
+
+/*Handle footer */
+.footer{
+    background-color: #f8e1db;
+    border-radius: 40px 40px 0 0;
+    padding: 100px 30px;
+    color: #3b3537;
+    height: 400px;
+}
+
+.footer__content{
+    float: left;
+    width: 40%;
+    padding: 0 20px;
+}
+
+.footer__content h3{
+    padding-bottom: 20px;
+}
+
+.footer__content p{
+    line-height: 28px;
+}
+
+.footer__list{
+    float: left;
+    width: 60%;
+}
+
+.footer__nav{
+    float: left;
+    width: 33.3%;
+    padding: 0 20px;
+}
+
+.footer__nav h3{
+    padding-bottom: 20px;
+}
+
+.footer__nav ul{
+    list-style: none;
+}
+
+.footer__nav li{
+    padding-bottom: 12px;
+}
+
+.footer__nav a{
+    text-decoration: none;
+    color: #3b3537;
+}
+
+.footer__copyrights{
+    text-align: center;
+    margin-top: 250px;
+}
